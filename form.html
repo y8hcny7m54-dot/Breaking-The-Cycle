@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Van Edwards">
+    <meta name="keywords" content="Breaking the Cycle, mental health, support">
+    <meta name="description" content="Support form for Breaking the Cycle">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+   <title>Support Form - Breaking the Cycle</title>
+
+    <link rel="stylesheet" href="EdwardsVanStyleSheet.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Breaking the Cycle</h1>
+
+    <nav>
+  <a href="EdwardsVanFinalProject.html">Home</a>
+  <a href="mission.html">Mission</a>
+  <a href="goals.html">Goals</a>
+  <a href="form.html">Support Form</a>
+  <a href="resources.html">Resources</a>
+  <a href="coping.html">Coping Skills</a>
+</nav>
+</header>
+<section class="page-banner">
+
+<h1>Support Form</h1>
+
+<p>
+A place for reflection, growth, and supportive communication.
+</p>
+
+</section>
+
+<main>
+
+<section>
+    <h2>Community Support Form</h2>
+
+    <p>
+        This page allows visitors to share their goals, experiences, and thoughts related to personal growth,
+        emotional health, and breaking unhealthy cycles.
+    </p>
+
+    <p>
+        The purpose of this form is to demonstrate cross-browser compatible HTML5 form elements while also
+        encouraging self-reflection and positive growth.
+    </p>
+
+
+
+<form>
+
+<label for="fullname">Full Name:</label><br>
+<input type="text" id="fullname" name="fullname"
+required minlength="3" maxlength="30"><br><br>
+<label for="email">Email Address:(* Required)</label><br>
+<input type="email" id="email" name="email"
+required><br><br>
+
+<label for="password">
+Password (* Required - Must contain 8 characters, a number, and a special character):
+</label><br>
+<input type="password"
+id="password"
+name="password"
+placeholder="Password123!"
+required
+minlength="8"><br><br>
+<label for="phone">Phone Number:</label><br>
+<input type="tel" id="phone" name="phone"
+pattern="[0-9]{10}"
+placeholder="1234567890"
+required><br><br>
+
+<label for="birthday">Birthday:</label><br>
+<input type="date" id="birthday" name="birthday"
+required><br><br>
+
+<label for="age">Age:</label><br>
+<input type="number" id="age" name="age"
+min="18" max="100"
+required><br><br>
+
+<label for="progress">Healing Progress:</label><br>
+<input type="range" id="progress" name="progress"
+min="1" max="10"><br><br>
+
+<label for="website">Favorite Website:</label><br>
+<input type="url" id="website" name="website"><br><br>
+
+<label for="search">Search Topic:</label><br>
+<input type="search" id="search" name="search"><br><br>
+
+<label for="color">Choose a Color:</label><br>
+<input type="color" id="color" name="color"><br><br>
+
+<label for="message">Your Thoughts:</label><br>
+<textarea id="message" name="message"
+maxlength="500"
+required></textarea><br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+<button type="button" onclick="saveName()">
+Save Progress
+</button>
+</form>
+
+
+
+<aside>
+    <h3>Why Forms Matter</h3>
+
+    <p>
+        Forms allow websites to collect information, improve interaction, and create a more personalized
+        user experience across different browsers and devices.
+    </p>
+
+</aside>
+
+</section>
+
+</main>
+
+
+<footer>
+
+<p>
+Breaking the Cycle | Healing • Growth • Self Awareness
+</p>
+
+<p>
+Created by Van Edwards - Final Project
+</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+<div class="support-reminder">
+
+Need immediate support?<br>
+Call 988 or 911
+
+</div>
+</body>
+</html>
